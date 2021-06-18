@@ -1,0 +1,16 @@
+.ctrl-input {
+  border-top: 2px black solid;
+}
+.input-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 200px;
+  height: 30px;
+  background-color: plum;
+  border: 2px purple solid;
+  border-radius: 10px;
+  outline: none;
+}
