@@ -1,0 +1,25 @@
+.ctrl-form {
+  border-top: 2px black solid;
+}
+.form-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-input-item {
+  width: 200px;
+  height: 30px;
+  background-color: plum;
+  border: 2px purple solid;
+  border-radius: 10px;
+  outline: none;
+}
+.form-submit-item {
+  width: 100px;
+  height: 30px;
+  background-color: lightseagreen;
+  border: 2px darkcyan solid;
+  border-radius: 10px;
+  outline: none;
+  margin-left: 5px;
+}

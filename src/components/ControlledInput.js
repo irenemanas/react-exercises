@@ -23,7 +23,7 @@ class ControlledInput extends React.Component {
       <div className='ctrl-input'>
         <h2>TYPE INTO INPUT</h2>
         <div className='input-cont'>
-          <input type='text' value={this.state.value} onChange={this.handleChange} className='input' />
+          <input type='text' value={this.state.input} onChange={this.handleChange} className='input' />
         </div>
         <h3>Controlled Input: {this.state.input}</h3>
       </div>
