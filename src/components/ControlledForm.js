@@ -39,7 +39,7 @@ class ControlledForm extends React.Component {
           </div>
         </form>
         {/* Change code below this line */}
-        <h1>{this.state.submit}</h1>
+        <h3>You have submitted: {this.state.submit}</h3>
         {/* Change code above this line */}
       </div>
     );
