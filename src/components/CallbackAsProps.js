@@ -1,4 +1,5 @@
 import React from "react";
+import "../style/_callbackAsProps.scss";
 
 class CallbackAsProps extends React.Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class CallbackAsProps extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className='callback'>
         {/* Change code below this line */}
         <GetInput input={this.state.inputValue} handleChange={this.handleChange} />
         <RenderInput input={this.state.inputValue} />
@@ -31,9 +32,9 @@ class GetInput extends React.Component {
   }
   render() {
     return (
-      <div>
-        <h3>Get Input:</h3>
-        <input value={this.props.input} onChange={this.props.handleChange} />
+      <div className='get'>
+        <h2>Get Input:</h2>
+        <input value={this.props.input} onChange={this.props.handleChange} className='input' />
       </div>
     );
   }
@@ -45,8 +46,8 @@ class RenderInput extends React.Component {
   }
   render() {
     return (
-      <div>
-        <h3>Input Render:</h3>
+      <div className='render'>
+        <h2>Input Render:</h2>
         <p>{this.props.input}</p>
       </div>
     );
