@@ -6,6 +6,7 @@ import Counter from "./components/Counter";
 import ControlledInput from "./components/ControlledInput";
 import ControlledForm from "./components/ControlledForm";
 import CallbackAsProps from "./components/CallbackAsProps";
+import LifeComponent from "./components/LifeComponent";
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
     <ControlledInput />
     <ControlledForm />
     <CallbackAsProps />
+    <LifeComponent />
   </HashRouter>,
   document.getElementById("root")
 );
