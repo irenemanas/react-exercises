@@ -38,4 +38,12 @@ class ConditionalRender extends React.Component {
   }
 }
 
+/* 
+  return (
+       <div>
+         <button onClick={this.toggleDisplay}>Toggle Display</button>{this.state.display && <h1>Displayed!</h1>}
+       </div>
+    ); 
+ */
+
 export default ConditionalRender;
