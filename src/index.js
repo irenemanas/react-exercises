@@ -9,6 +9,7 @@ import CallbackAsProps from "./components/CallbackAsProps";
 import LifeComponent from "./components/LifeComponent";
 import ConditionalRender from "./components/ConditionalRender";
 import TernaryRender from "./components/TernaryRender";
+import MyToDoList from "./components/MyToDoList";
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
@@ -21,6 +22,7 @@ ReactDOM.render(
     <LifeComponent />
     <ConditionalRender />
     <TernaryRender />
+    <MyToDoList />
   </HashRouter>,
   document.getElementById("root")
 );
