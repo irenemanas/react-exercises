@@ -10,6 +10,7 @@ import LifeComponent from "./components/LifeComponent";
 import ConditionalRender from "./components/ConditionalRender";
 import TernaryRender from "./components/TernaryRender";
 import MyToDoList from "./components/MyToDoList";
+import UsersOnLine from "./components/UsersOnLine";
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
@@ -23,6 +24,7 @@ ReactDOM.render(
     <ConditionalRender />
     <TernaryRender />
     <MyToDoList />
+    <UsersOnLine />
   </HashRouter>,
   document.getElementById("root")
 );
