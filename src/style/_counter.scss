@@ -1,8 +1,9 @@
 .counter {
   border-top: 2px black solid;
 }
-.btn {
+.btn-elements {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -23,7 +24,7 @@
   background-color: plum;
   margin-left: 5px;
 }
-.result {
+.counter-result {
   display: flex;
   justify-content: center;
   align-items: center;
