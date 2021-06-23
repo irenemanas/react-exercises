@@ -8,6 +8,7 @@ import ControlledForm from "./components/ControlledForm";
 import CallbackAsProps from "./components/CallbackAsProps";
 import LifeComponent from "./components/LifeComponent";
 import ConditionalRender from "./components/ConditionalRender";
+import TernaryRender from "./components/TernaryRender";
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.render(
@@ -19,6 +20,7 @@ ReactDOM.render(
     <CallbackAsProps />
     <LifeComponent />
     <ConditionalRender />
+    <TernaryRender />
   </HashRouter>,
   document.getElementById("root")
 );
